@@ -1,0 +1,38 @@
+.brand {
+  display: flex;
+}
+header {
+  display: flex;
+  text-align: center;
+}
+body {
+  margin: 5px;
+  padding: 5px;
+}
+title {
+  font-size: xx-large;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgoldenrod;
+  padding: 5px;
+  margin: 5px;
+}
+.testimonial {
+  background-color: coral;
+}
+footer {
+  flex-direction: column;
+  background-color: chocolate;
+}
+body,
+main {
+  flex-grow: 1em;
+}
+nav {
+  display: flex;
+  text-align: center;
+  gap: 3px;
+  margin-left: 60%;
+}
